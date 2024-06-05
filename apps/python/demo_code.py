@@ -135,4 +135,5 @@ if __name__ == "__main__":
             break
 
 import random
+
 print(random.random())

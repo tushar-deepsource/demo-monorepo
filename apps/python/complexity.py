@@ -92,37 +92,67 @@ class C:
         return (
             "one"
             if a == 1
-            else "two"
-            if a == 2
-            else "three"
-            if a == 3
-            else "four"
-            if a == 4
-            else "five"
-            if a == 5
-            else "six"
-            if a == 6
-            else "seven"
-            if a == 7
-            else "eight"
-            if a == 8
-            else "nine"
-            if a == 9
-            else "ten"
-            if a == 10
-            else "eleven"
-            if a == 11
-            else "twelve"
-            if a == 12
-            else "thirteen"
-            if a == 13
-            else "fourteen"
-            if a == 14
-            else "fifteen"
-            if a == 15
-            else "sixteen"
-            if a == 16
-            else "too big"  # else doesn't count in complexity
+            else (
+                "two"
+                if a == 2
+                else (
+                    "three"
+                    if a == 3
+                    else (
+                        "four"
+                        if a == 4
+                        else (
+                            "five"
+                            if a == 5
+                            else (
+                                "six"
+                                if a == 6
+                                else (
+                                    "seven"
+                                    if a == 7
+                                    else (
+                                        "eight"
+                                        if a == 8
+                                        else (
+                                            "nine"
+                                            if a == 9
+                                            else (
+                                                "ten"
+                                                if a == 10
+                                                else (
+                                                    "eleven"
+                                                    if a == 11
+                                                    else (
+                                                        "twelve"
+                                                        if a == 12
+                                                        else (
+                                                            "thirteen"
+                                                            if a == 13
+                                                            else (
+                                                                "fourteen"
+                                                                if a == 14
+                                                                else (
+                                                                    "fifteen"
+                                                                    if a == 15
+                                                                    else (
+                                                                        "sixteen"
+                                                                        if a == 16
+                                                                        else "too big"
+                                                                    )
+                                                                )
+                                                            )
+                                                        )
+                                                    )
+                                                )
+                                            )
+                                        )
+                                    )
+                                )
+                            )
+                        )
+                    )
+                )
+            )  # else doesn't count in complexity
         )
 
     def method_three(self):
