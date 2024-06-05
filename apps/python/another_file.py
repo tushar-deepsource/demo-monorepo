@@ -3,3 +3,6 @@ def foo():
 
 def bar():
   print("This IS covered")
+
+def baz():
+  print("what")
