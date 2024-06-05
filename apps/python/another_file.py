@@ -1,2 +1,2 @@
 def foo():
-  print("This is not covered")
+    print("This is not covered")
