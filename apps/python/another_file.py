@@ -1,5 +1,6 @@
 def foo():
-  print("This is not covered")
+    print("This is not covered")
+
 
 def bar():
-  print("This IS covered")
+    print("This IS covered")
